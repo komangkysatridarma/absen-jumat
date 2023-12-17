@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    max-width: 100%;
+    position: fixed;
+}
+
+.login-page {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .login-page .div {
+    background-color: #ebefff;
+    overflow: hidden;
+    width: 100%;
+    height: 50%;    
+  }
+  
+  .login-page .overlap {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 35.313rem;
+  }
+  
+  .login-page .rectangle {
+    position: absolute;
+    width:43.75rem;
+    height: 49.063rem;
+    top: 0;
+    left: 17.313rem;
+    background-color: #afb3ff;
+  }
+  
+  .login-page .object-other {
+    position: absolute;
+    width: 37.5rem;
+    height:36.875rem;
+    top: 2.313rem;
+    left: 5.625rem;
+    background-image: url(./img/object-other-03.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .login-page .rectangle-2 {
+    position: absolute;
+    width: 367px;
+    height: 34px;
+    top: 250px;
+    left: 122px;
+    border-radius: 50px;
+    border: 1px solid;
+    border-color: #656ed3;
+  }
+  
+  .login-page .rectangle-3 {
+    position: absolute;
+    width: 367px;
+    height: 34px;
+    top: 326px;
+    left: 122px;
+    border-radius: 50px;
+    border: 1px solid;
+    border-color: #656ed3;
+  }
+  
+  .login-page .text-wrapper {
+    display: block;
+    position: absolute;
+    top: 219px;
+    left: 122px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .login-page .dont-have-and {
+    position: absolute;
+    top: 489px;
+    left: 188px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .login-page .span {
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+  }
+  
+  .login-page .text-wrapper-2 {
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+  }
+  
+  .login-page .text-wrapper-3 {
+    position: absolute;
+    top: 176px;
+    left: 240px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #191919;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .login-page .group {
+    position: absolute;
+    width: 367px;
+    height: 34px;
+    top: 402px;
+    left: 124px;
+  }
+  
+  .login-page .overlap-group {
+    position: relative;
+    width: 365px;
+    height: 34px;
+    background-color: #656ed3;
+    border-radius: 50px;
+  }
+  
+  .login-page .text-wrapper-4 {
+    position: absolute;
+    top: 7px;
+    left: 161px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #afb3ff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .login-page .text-wrapper-5 {
+    position: absolute;
+    top: 295px;
+    left: 124px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .login-page .overlap-2 {
+    position: absolute;
+    width: 543px;
+    height: 499px;
+    top: 520px;
+    left: -287px;
+  }
+  
+  .login-page .rectangle-4 {
+    position: absolute;
+    width: 597px;
+    height: 141px;
+    top: 179px;
+    left: -27px;
+    background-color: #838cf1;
+    border-radius: 105.53px;
+    transform: rotate(-41.1deg);
+  }
+  
+  .login-page .rectangle-5 {
+    position: absolute;
+    width: 554px;
+    height: 131px;
+    top: 177px;
+    left: 10px;
+    background-color: #afb3ff;
+    border-radius: 105.53px;
+    transform: rotate(-41.1deg);
+  }
+  .btn{
+    background-color: #656ed3;
+    border: none;
+    outline: none;
+    color: #ebefff;
+  }
+  @media (max-width: 768px) {
+    .login-page .overlap,
+    .login-page .rectangle {
+        height: 70vh;
+    }
+    .login-page .object-other {
+        width: 100%;
+        height: 50%;
+        top: 0;
+        left: 0;
+    }
+    .login-page .rectangle-2,
+    .login-page .rectangle-3
+    {
+        width: 100%;
+        left: 0;
+    }
+}
+  
